@@ -12,6 +12,7 @@ alias test='php artisan test'
 alias phpunit='vendor/bin/phpunit'
 alias migrate="php artisan migrate"
 alias serve="php artisan serve"
+alias tinker="php artisan tinker"
 alias fresh="php artisan migrate:fresh"
 alias seed="php artisan db:seed"
 alias m:c="php artisan make:controller"
@@ -27,7 +28,7 @@ alias m:f="php artisan make:form"
 alias cfresh="rm -rf vendor/ composer.lock && composer install"
 
 # JS
-alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
+alias nfresh="rm -rf node_modules/ yarn.lock && yarn"
 alias watch="npm run watch"
 
 # Git

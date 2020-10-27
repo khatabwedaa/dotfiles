@@ -8,6 +8,7 @@ alias vpn='windscribe'
 
 # Laravel
 alias artisan='php artisan'
+alias key:generate='php artisan key:generate'
 alias test='php artisan test'
 alias phpunit='vendor/bin/phpunit'
 alias migrate="php artisan migrate"

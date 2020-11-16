@@ -2,7 +2,8 @@
 alias copyssh="xclip -selection clipboard < $HOME/.ssh/id_rsa.pub"
 alias reloadshell="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
-alias hey="echo '¯\_(ツ)_/¯'"
+alias aoh="echo '¯\_(ツ)_/¯'"
+alias mmm="echo '◉_◉'"
 alias c="clear"
 alias vpn='windscribe'
 
@@ -37,12 +38,20 @@ alias ga='git add'
 alias gaa='git add .'
 alias gs='git status'
 alias gl='git log'
+alias glp='git log --pretty=oneline --abbrev-commit'
 alias gb='git branch'
+alias gbr='git branch -m'
+alias gbd='git branch -D'
+alias gbdr='git push origin --delete'
 alias gch='git checkout'
 alias gc='git commit -m'
 alias gamend='git commit --amend'
-alias gcl='git clone'
+alias gf='git fetch'
 alias gp='git push'
 alias gpl='git pull'
+alias gcl='git clone'
+alias gcr='git remote set-url origin'
+alias grs='git reset --soft'
+alias grh='git reset --hard'
 alias wip='git add . && git commit -m '\''wip'\'
 alias init='git init && git add . && git commit -m '\''Init'\'

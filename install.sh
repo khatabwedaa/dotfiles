@@ -1,6 +1,11 @@
 #!/bin/sh
 
-echo "Setting up your PC..."
+echo "
+    Setting up your PC...
+
+    
+     ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
+"
 
 # Set default MySQL root password and auth type.
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"

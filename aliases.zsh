@@ -6,6 +6,7 @@ alias aoh="echo '¯\_(ツ)_/¯'"
 alias mmm="echo '◉_◉'"
 alias c="clear"
 alias vpn='windscribe'
+alias pgsql='sudo -u postgres psql'
 
 # Laravel
 alias artisan='php artisan'

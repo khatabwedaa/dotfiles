@@ -25,7 +25,6 @@ fi
 php composer-setup.php --quiet
 RESULT=$?
 rm composer-setup.php
-exit $RESULT
 
 # Install global Composer packages
 composer global require laravel/installer cpriego/valet-linux

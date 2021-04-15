@@ -11,8 +11,9 @@ alias pgsql='sudo -u postgres psql'
 # Laravel
 alias artisan='php artisan'
 alias key:generate='php artisan key:generate'
-alias test='php artisan test'
-alias phpunit='vendor/bin/phpunit'
+alias t='php artisan test'
+alias tp='php artisan test --parallel'
+alias p='vendor/bin/phpunit'
 alias migrate="php artisan migrate"
 alias serve="php artisan serve"
 alias tinker="php artisan tinker"
@@ -29,6 +30,7 @@ alias m:f="php artisan make:form"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer install"
+alias cphpv="sudo update-alternatives --config php"
 
 # JS
 alias nfresh="rm -rf node_modules/ yarn.lock && yarn"

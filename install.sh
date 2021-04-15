@@ -15,7 +15,10 @@ valet install
 
 # Create Code directory
 mkdir $HOME/Code
+mkdir $HOME/Code/work
 mkdir $HOME/Code/reivew
+mkdir $HOME/Code/laravel
+mkdir $HOME/Code/contributors
 
 # Clone Github repositories
 ./clone.sh

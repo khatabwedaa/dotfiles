@@ -1,5 +1,6 @@
 # Load Composer tools
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+# export PATH="$HOME/chromedriver_linux64"
 
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"

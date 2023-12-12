@@ -5,6 +5,8 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
+export PATH=/opt/homebrew/bin:$PATH
+
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
